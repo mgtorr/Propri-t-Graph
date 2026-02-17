@@ -1,0 +1,52 @@
+{
+  "name": "propriete-graph",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.3",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "leaflet.heat": "^0.2.0",
+    "d3": "^7.8.5",
+    "@visx/visx": "^3.6.0",
+    "recharts": "^2.10.3",
+    "react-force-graph": "^1.44.4",
+    "@tanstack/react-query": "^5.17.15",
+    "zustand": "^4.4.7",
+    "axios": "^1.6.5",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.2.0",
+    "numeral": "^2.0.6",
+    "framer-motion": "^10.18.0",
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "react-select": "^5.8.0",
+    "react-slider": "^2.0.6",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@types/leaflet": "^1.9.8",
+    "@types/d3": "^7.4.3",
+    "@types/numeral": "^2.0.5",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0"
+  }
+}
